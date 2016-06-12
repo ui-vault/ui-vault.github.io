@@ -1,11 +1,11 @@
 $(document).ready(function() {
             $('#myContainer').multiscroll({
             	sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE'],
-            	anchors: ['first', 'second', 'third'],
+            	anchors: ['home', 'projects', 'about'],
             	menu: '#menu',
             	navigation: true,
-            	navigationTooltips: ['One', 'Two', 'Three'],
-            	loopBottom: true,
-            	loopTop: true
+            	navigationTooltips: ['Home', 'Projects', 'About'],
+            	loopBottom: false,
+            	loopTop: false
             });
         });

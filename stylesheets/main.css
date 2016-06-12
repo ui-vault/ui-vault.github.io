@@ -65,34 +65,26 @@ p{
 #menu li {
 	display:inline-block;
 	margin: 10px;
-	color: #000;
-	background:#fff;
-	background: rgba(255,255,255, 0.3);
-	-webkit-border-radius: 10px;
-			border-radius: 10px;
 }
 #menu li.active{
-	background:#666;
-	background: rgba(255,255,255, 1);
-	color: #000;
+	color: #fff;
 }
 #menu li a{
 	text-decoration:none;
-	color: #000;
+  color: #9E9E9E;
 }
 #menu li.active a:hover{
-	color: #000;
+
 }
 #menu li:hover{
-	background: rgba(255,255,255, 0.8);
+
 }
 #menu li a,
 #menu li.active a{
-	padding: 9px 18px;
-	display:block;
+
 }
 #menu li.active a{
-	color: #000;
+	color: #fff;
 }
 #menu{
 	position:fixed;
@@ -101,8 +93,9 @@ p{
 	height: 40px;
 	z-index: 70;
 	width: 100%;
-	padding: 0;
+	padding: 20px;
 	margin:0;
+  background: #3e464c;
 }
 #infoMenu{
 	height: 20px;
